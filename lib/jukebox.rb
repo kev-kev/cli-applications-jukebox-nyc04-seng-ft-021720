@@ -53,11 +53,11 @@ def run(songs)
     #   play(songs)
     # end
     case user_response
-    when user_response == 'help'
+    when 'help'
       help
-    when user_response == 'list'
+    when 'list'
       list(songs)
-    when user_response == 'play'
+    when 'play'
       play(songs)
     else
     end
