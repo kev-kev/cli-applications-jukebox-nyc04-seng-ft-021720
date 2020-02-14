@@ -52,14 +52,14 @@ def run(songs)
     # elsif user_response == 'play'
     #   play(songs)
     # end
-    # case user_response
-    # when user_response == 'help'
-    #   help
-    # when user_response == 'list'
-    #   list(songs)
-    # when user_response == 'play'
-    #   play(songs)
-    # end
+    case user_response
+    when user_response == 'help'
+      help
+    when user_response == 'list'
+      list(songs)
+    when user_response == 'play'
+      play(songs)
+    end
   end
   exit_jukebox
 end
